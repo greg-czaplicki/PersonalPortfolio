@@ -101,6 +101,8 @@ textarea {
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
 }
 
 .row {
@@ -111,29 +113,32 @@ html, body {
     height: 100px;
 }
 
-div.col.s10.topbar, div.col.s1.topbar{
-    background-color: #039688;
+div.col.s10.topbar, div.col.s1.topbar {
+    background-color: #5299c9;
     color: white;
-    padding-top: 10px;
+    padding-right: 40px;
 }
 
 .col.s8.fillers {
-    background-color: #039688;
+    background-color: #5299c9;
 }
 
 .col.s2.topleftbar {
-    background-color: #03695C;
+    background-color: #4182ad;
     color: white;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-left: 30px;
 }
 
 .col.s2.sidebar {
     background-color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .col.s10.background {
     background-color: #EEEEEE;
-    height: 150vh;
+    height: 175vh;
 }
 
 .card {
@@ -144,7 +149,47 @@ div.col.s10.topbar, div.col.s1.topbar{
 .name {
     font-size: 20px;
     padding-left: 20px;
-    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.profile {
+    position: absolute;
+    height: 10%;
+    transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.profile-text {
+    padding-top: 5px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.profile-text {
+    margin-top: -8px;
+}
+
+.profile-text.profilename {
+    padding-top: 14px;
+}
+
+.profilename {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.resume {
+    float: right;
+
+}
+
+.fa-file-o {
+    padding-right: 5px;
 }
 
 /* ==========================================================================
